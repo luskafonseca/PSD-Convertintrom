@@ -25,14 +25,14 @@ include "classe.php";
         <label for="inteiro" class="col-sm-2 col-form-label"><strong>Número Inteiro </strong></label>
 		<div class="col-sm-10">
 
-        <input type="text" id="inteiro" name="inteiro" required placeholder="Insira aqui o número inteiro" value="<?php echo($_POST['inteiro']) ? ($_POST['inteiro']) : ''; ?>">
+        <input type="text" id="inteiro" name="inteiro">
         <br> </div>
         
         <label for="roman" class="col-sm-2 col-form-label"><strong>Número Romano</label>
 
 		<div class="col-sm-10">
 
-        <input type="text" id="roman" name="roman" required placeholder="Insira aqui o algarismo romano" value="<?php echo($_POST['roman']) ? ($_POST['roman']) : ''; ?>"><br> <br> </div>
+        <input type="text" id="roman" name="roman" ><br> <br> </div>
         
 
 		<div class="col-sm-10">
